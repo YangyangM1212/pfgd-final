@@ -14,7 +14,7 @@ texture = ExtResource("2_m7fk3")
 script = ExtResource("3_cu00k")
 
 [node name="logo2" type="Sprite2D" parent="."]
-position = Vector2(586, 480)
+position = Vector2(730, 492)
 texture = ExtResource("2_m7fk3")
 script = ExtResource("3_cu00k")
 
