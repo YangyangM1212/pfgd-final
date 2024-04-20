@@ -1,0 +1,46 @@
+[gd_scene load_steps=5 format=3 uid="uid://c1v7tsipacw4n"]
+
+[ext_resource type="Script" path="res://main.gd" id="1_e8p7p"]
+[ext_resource type="Texture2D" uid="uid://dl23gqahw1oxg" path="res://icon.svg" id="2_m7fk3"]
+[ext_resource type="Script" path="res://logo.gd" id="3_cu00k"]
+[ext_resource type="PackedScene" uid="uid://d30wbrvsqnhpo" path="res://logo_8.tscn" id="4_p7aqu"]
+
+[node name="Node2D" type="Node2D"]
+script = ExtResource("1_e8p7p")
+
+[node name="logo" type="Sprite2D" parent="."]
+position = Vector2(582, 303)
+texture = ExtResource("2_m7fk3")
+script = ExtResource("3_cu00k")
+
+[node name="logo2" type="Sprite2D" parent="."]
+position = Vector2(586, 480)
+texture = ExtResource("2_m7fk3")
+script = ExtResource("3_cu00k")
+
+[node name="logo3" type="Sprite2D" parent="."]
+position = Vector2(393, 474)
+texture = ExtResource("2_m7fk3")
+script = ExtResource("3_cu00k")
+
+[node name="logo4" type="Sprite2D" parent="."]
+position = Vector2(771, 302)
+texture = ExtResource("2_m7fk3")
+script = ExtResource("3_cu00k")
+
+[node name="logo5" type="Sprite2D" parent="."]
+position = Vector2(392, 306)
+texture = ExtResource("2_m7fk3")
+script = ExtResource("3_cu00k")
+
+[node name="logo6" type="Sprite2D" parent="."]
+position = Vector2(762, 150)
+texture = ExtResource("2_m7fk3")
+script = ExtResource("3_cu00k")
+
+[node name="logo7" type="Sprite2D" parent="."]
+position = Vector2(582, 146)
+texture = ExtResource("2_m7fk3")
+script = ExtResource("3_cu00k")
+
+[node name="logo8" parent="." instance=ExtResource("4_p7aqu")]
